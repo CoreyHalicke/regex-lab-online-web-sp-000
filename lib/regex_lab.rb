@@ -26,4 +26,6 @@ end
 def valid_phone_number?(phone)
   if phone.match(/\W?\d{3}\W?\d{3}\W?\d{4}/)
     return TRUE
+  end
 end
+
